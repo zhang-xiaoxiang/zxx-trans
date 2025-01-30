@@ -33,12 +33,14 @@
         <module>zxx-trans-core</module>
         <module>zxx-trans-spring-boot-start</module>
     </modules>
+
+
+
+    <!--用于发布：项目链接-->
     <scm>
-        <connection/>
-        <developerConnection/>
-        <tag/>
-        <url/>
+        <connection>https://github.com/zhang-xiaoxiang/zxx-trans.git</connection>
     </scm>
+
     <properties>
         <java.version>8</java.version>
     </properties>
@@ -119,24 +121,25 @@
             </plugin>
 
 
-<!--            <plugin>-->
-<!--                <groupId>org.apache.maven.plugins</groupId>-->
-<!--                <artifactId>maven-gpg-plugin</artifactId>-->
-<!--                <version>1.5</version>-->
-<!--                <configuration>-->
-<!--                    <executable>C:\Program Files (x86)\GnuPG\bin\gpg.exe</executable>-->
-<!--                    <keyname>orangewest</keyname>-->
-<!--                </configuration>-->
-<!--                <executions>-->
-<!--                    <execution>-->
-<!--                        <id>sign-artifacts</id>-->
-<!--                        <phase>verify</phase>-->
-<!--                        <goals>-->
-<!--                            <goal>sign</goal>-->
-<!--                        </goals>-->
-<!--                    </execution>-->
-<!--                </executions>-->
-<!--            </plugin>-->
+            <!--gpg加密-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-gpg-plugin</artifactId>
+                <version>1.6</version>
+                <configuration>
+                    <executable>D:\Asoftware\java\GnuPG\bin\gpg.exe</executable>
+                    <keyname>zhang-xiaoxiang</keyname>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>sign-artifacts</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>sign</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
 
         </plugins>
     </build>
