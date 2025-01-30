@@ -8,7 +8,7 @@
         <version>2.7.18</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.github.zxx</groupId>
+    <groupId>io.github.zhang-xiaoxiang</groupId>
     <artifactId>zxx-trans</artifactId>
     <version>1.0</version>
     <packaging>pom</packaging>
@@ -63,12 +63,12 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>com.github.zxx</groupId>
+                <groupId>io.github.zhang-xiaoxiang</groupId>
                 <artifactId>zxx-trans</artifactId>
                 <version>1.0</version>
             </dependency>
             <dependency>
-                <groupId>com.github.zxx</groupId>
+                <groupId>io.github.zhang-xiaoxiang</groupId>
                 <artifactId>zxx-trans-spring-boot-start</artifactId>
                 <version>${project.version}</version>
             </dependency>
