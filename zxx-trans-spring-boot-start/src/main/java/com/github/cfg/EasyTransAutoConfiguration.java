@@ -22,7 +22,7 @@ public class EasyTransAutoConfiguration {
     public TransService transService() {
         TransService transService = new TransService();
         transService.init();
-        log.warn("==================翻译插件已注入======================");
+        log.warn("==================zxx-trans 翻译插件已注入 ======================");
         return transService;
     }
 
