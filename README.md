@@ -14,25 +14,26 @@
 <br />
 
 <p align="center">
-  <a href="https://github.com/orangewest/easy-trans">
+  <a href="https://github.com/zhang-xiaoxiang/zxx-trans">
     <img src="logo.png" alt="Logo" width="300" height="70">
   </a>
 
 <h3 align="center">easy-trans</h3>
   <p align="center">
-    一款通用的数据翻译框架
+    一款通用的数据翻译框架(参考easy-trans,用于测试自定义 spring-boot-start)
     <br />
-    <a href="https://github.com/orangewest/easy-trans"><strong>探索本项目的文档 »</strong></a>
+    <a href="https://github.com/zhang-xiaoxiang/zxx-trans"><strong>探索本项目的文档 »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/orangewest/easy-trans/blob/main/easy-trans-core/src/test/java/io/github/orangewest/trans/service/TransServiceTest.java">查看Demo</a>
+    <a href="https://gitee.com/orangewest/easy-trans">原始项目</a>
     ·
-    <a href="https://github.com/orangewest/easy-trans/issues">报告Bug</a>
+    <a href="https://github.com/zhang-xiaoxiang/zxx-trans/blob/master/zxx-trans-core/src/test/java/com/github/service/TransServiceTest.java">查看Demo</a>
     ·
-    <a href="https://github.com/orangewest/easy-trans/issues">提出新特性</a>
+    <a href="https://github.com/zhang-xiaoxiang/zxx-trans/issues">报告Bug</a>
+    ·
+    <a href="https://github.com/zhang-xiaoxiang/zxx-trans/issues">提出新特性</a>
   </p>
 
-</p>
 
 ## 一、架构设计
 

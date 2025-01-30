@@ -14,13 +14,21 @@
     <packaging>pom</packaging>
     <name>zxx-trans</name>
     <description>zxx-trans</description>
-    <url/>
+    <url>https://github.com/zhang-xiaoxiang/zxx-trans</url>
     <licenses>
-        <license/>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
     </licenses>
+
     <developers>
-        <developer/>
+        <developer>
+            <name>zhangxiaoxiang</name>
+            <email>1090510535@qq.com</email>
+        </developer>
     </developers>
+
     <modules>
         <module>zxx-trans-core</module>
         <module>zxx-trans-spring-boot-start</module>
@@ -109,6 +117,8 @@
                     </execution>
                 </executions>
             </plugin>
+
+
 <!--            <plugin>-->
 <!--                <groupId>org.apache.maven.plugins</groupId>-->
 <!--                <artifactId>maven-gpg-plugin</artifactId>-->
