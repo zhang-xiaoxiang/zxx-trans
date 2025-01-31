@@ -4,7 +4,7 @@
     <parent>
         <groupId>io.github.zhang-xiaoxiang</groupId>
         <artifactId>zxx-trans</artifactId>
-        <version>1.0.3</version>
+        <version>1.0.4</version>
     </parent>
 
     <artifactId>zxx-trans-spring-boot-start</artifactId>
@@ -20,7 +20,7 @@
         <dependency>
             <groupId>io.github.zhang-xiaoxiang</groupId>
             <artifactId>zxx-trans-core</artifactId>
-            <version>1.0.3</version>
+            <version>1.0.4</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
