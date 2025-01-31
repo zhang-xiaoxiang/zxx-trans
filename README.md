@@ -1,6 +1,6 @@
 # easy-trans
 
-一款通用的数据翻译框架
+一款通用的数据翻译框架(原始项目:https://gitee.com/orangewest/easy-trans),我这里做了一点改动,用于测试自定义 spring-boot-start
 
 <!-- PROJECT SHIELDS -->
 
@@ -38,7 +38,7 @@
 ## 一、架构设计
 
 架构如下：</br>
-<a href="https://github.com/orangewest/easy-trans">
+<a href="https://github.com/zhang-xiaoxiang/zxx-trans">
 <img src="jiagou.png" alt="Logo" width="200" height="400">
 </a>
 </br>翻译核心注解
@@ -81,9 +81,9 @@ maven引入
 
 ```java
 <dependency>
-<groupId>io.github.orangewest</groupId>
-<artifactId>easy-trans-core</artifactId>
-<version>0.0.3</version>
+    <groupId>io.github.zhang-xiaoxiang</groupId>
+    <artifactId>zxx-trans-core</artifactId>
+    <version>1.0.5</version>
 </dependency>
 ```
 
@@ -497,9 +497,9 @@ maven 引入
 
 ```java
 <dependency>
-<groupId>io.github.orangewest</groupId>
-<artifactId>easy-trans-spring-start</artifactId>
-<version>0.0.3</version>
+    <groupId>io.github.zhang-xiaoxiang</groupId>
+    <artifactId>zxx-trans-spring-boot-start</artifactId>
+    <version>1.0.5</version>
 </dependency>
 ```
 
@@ -614,15 +614,15 @@ public class MybatisTransDriver implements TransDriver {
 
 [contributors-shield]: https://img.shields.io/github/contributors/orangewest/easy-trans.svg?style=flat-square
 
-[contributors-url]: https://github.com/orangewest/easy-trans/graphs/contributors
+[contributors-url]: https://github.com/zhang-xiaoxiang/zxx-trans/graphs/contributors
 
 [forks-shield]: https://img.shields.io/github/forks/orangewest/easy-trans.svg?style=flat-square
 
-[forks-url]: https://github.com/orangewest/easy-trans/network/members
+[forks-url]: https://github.com/zhang-xiaoxiang/zxx-trans/network/members
 
 [stars-shield]: https://img.shields.io/github/stars/orangewest/easy-trans.svg?style=flat-square
 
-[stars-url]: https://github.com/orangewest/easy-trans/stargazers
+[stars-url]: https://github.com/zhang-xiaoxiang/zxx-trans/stargazers
 
 [issues-shield]: https://img.shields.io/github/issues/orangewest/easy-trans.svg?style=flat-square
 
@@ -630,7 +630,7 @@ public class MybatisTransDriver implements TransDriver {
 
 [license-shield]: https://img.shields.io/github/license/orangewest/easy-trans.svg?style=flat-square
 
-[license-url]: https://github.com/orangewest/easy-trans/blob/master/LICENSE.txt
+[license-url]: https://github.com/zhang-xiaoxiang/zxx-trans/blob/master/LICENSE.txt
 
 
 
