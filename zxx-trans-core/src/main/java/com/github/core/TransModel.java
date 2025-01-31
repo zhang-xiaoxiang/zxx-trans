@@ -134,6 +134,7 @@ public class TransModel {
 
         // 如果对象值不为空，则设置对象字段的值
         if (objValue != null) {
+            // 核心逻辑：设置对象字段的值
             ReflectUtils.setFieldValue(this.obj, this.transFieldMeta.getField(), objValue);
         }
     }

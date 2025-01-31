@@ -71,6 +71,7 @@ public class TransService {
         if (!info.needTrans()) {
             return false;
         }
+        // 执行翻译赋值的核心方法
         doTrans(objList, info.getTransFieldList());
         return true;
     }
