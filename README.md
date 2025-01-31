@@ -1,6 +1,6 @@
 # easy-trans
 
-一款通用的数据翻译框架(原始项目:https://gitee.com/orangewest/easy-trans),我这里做了一点改动,用于测试自定义 spring-boot-start
+一款通用的数据翻译框架(我这里做了一点改动,用于测试自定义 spring-boot-start)</p>原始项目:https://gitee.com/orangewest/easy-trans
 
 <!-- PROJECT SHIELDS -->
 
