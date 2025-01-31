@@ -1,7 +1,6 @@
 package com.github.manager;
 
 
-
 import com.github.core.TransClassMeta;
 
 import java.io.Serializable;
@@ -9,7 +8,10 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * 类管理器
+ * TransClassMetaCacheManager: TransClassMeta缓存管理器，用于缓存TransClassMeta对象
+ *
+ * @author zhangxiaoxiang
+ * @since 2025/1/31
  */
 public class TransClassMetaCacheManager implements Serializable {
 
@@ -27,5 +29,4 @@ public class TransClassMetaCacheManager implements Serializable {
         }
         return temp;
     }
-
 }

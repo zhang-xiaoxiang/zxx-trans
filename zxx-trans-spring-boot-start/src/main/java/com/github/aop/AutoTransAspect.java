@@ -5,7 +5,12 @@ import com.github.uitl.TransUtil;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.AfterReturning;
 import org.aspectj.lang.annotation.Aspect;
-
+/**
+ * AutoTransAspect: 自动事务切面
+ *
+ * @author zhangxiaoxiang
+ * @since 2025/1/31
+ */
 @Aspect
 public class AutoTransAspect {
 

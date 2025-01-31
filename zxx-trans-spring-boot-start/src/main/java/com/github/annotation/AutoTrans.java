@@ -6,11 +6,13 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * 自动翻译
+ * AutoTrans: 自动翻译注解
+ *
+ * @author zhangxiaoxiang
+ * @since 2025/1/31
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ElementType.METHOD})
 public @interface AutoTrans {
-
 
 }

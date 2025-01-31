@@ -3,7 +3,12 @@ package com.github.util;
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.StreamSupport;
-
+/**
+ * CollectionUtils: 集合工具类，提供一些集合操作的工具方法。
+ *
+ * @author zhangxiaoxiang
+ * @since 2025/1/31
+ */
 public class CollectionUtils {
 
     public static boolean isEmpty(Collection<?> collection) {
@@ -22,6 +27,12 @@ public class CollectionUtils {
         return !isEmpty(map);
     }
 
+    /**
+     * 将对象转换为List类型
+     *
+     * @param obj 需要转换的对象
+     * @return 转换后的List对象
+     */
     public static List<Object> objToList(Object obj) {
         List<Object> objList;
         if (obj instanceof Iterable<?>) {

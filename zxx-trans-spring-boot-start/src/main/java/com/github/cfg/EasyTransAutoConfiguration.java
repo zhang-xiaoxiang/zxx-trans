@@ -13,6 +13,12 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+/**
+ * EasyTransAutoConfiguration: 自动配置类
+ *
+ * @author zhangxiaoxiang
+ * @since 2025/1/31
+ */
 @Configuration
 @Slf4j
 public class EasyTransAutoConfiguration {

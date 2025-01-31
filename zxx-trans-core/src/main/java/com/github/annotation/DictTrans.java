@@ -1,7 +1,6 @@
 package com.github.annotation;
 
 
-
 import com.github.core.TransModel;
 import com.github.repository.dict.DictTransRepository;
 
@@ -10,6 +9,12 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
+/**
+ * DictTrans:字典翻译注解
+ *
+ * @author zhangxiaoxiang
+ * @since 2025/1/31
+ */
 @Trans(using = DictTransRepository.class, key = TransModel.VAL_EXTRACT)
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.FIELD)
@@ -22,8 +27,6 @@ public @interface DictTrans {
     String trans();
 
     /**
-     * 字典组
-     *
      * @return 字典分组
      */
     String group();

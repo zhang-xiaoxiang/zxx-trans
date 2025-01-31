@@ -2,11 +2,20 @@ package com.github.core;
 
 
 import com.github.repository.TransRepository;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
 import java.util.List;
 
+/**
+ * TransFieldMeta: Trans字段元数据
+ *
+ * @author zhangxiaoxiang
+ * @since 2025/1/31
+ */
+@Getter
 public class TransFieldMeta {
 
     /**
@@ -39,8 +48,18 @@ public class TransFieldMeta {
     /**
      * 子属性
      */
+    @Setter
     private List<TransFieldMeta> children;
 
+    /**
+     * TransFieldMeta的构造函数
+     *
+     * @param field      目标字段
+     * @param transField 转换字段
+     * @param key        字段的key
+     * @param repository 转换仓库类
+     * @param transAnno  Trans注解
+     */
     public TransFieldMeta(Field field, Field transField, String key, Class<? extends TransRepository> repository, Annotation transAnno) {
         this.field = field;
         this.transField = transField;
@@ -48,38 +67,6 @@ public class TransFieldMeta {
         this.key = key;
         this.repository = repository;
         this.transAnno = transAnno;
-    }
-
-    public String getTrans() {
-        return trans;
-    }
-
-    public Field getTransField() {
-        return transField;
-    }
-
-    public Field getField() {
-        return field;
-    }
-
-    public String getKey() {
-        return key;
-    }
-
-    public Class<? extends TransRepository> getRepository() {
-        return repository;
-    }
-
-    public List<TransFieldMeta> getChildren() {
-        return children;
-    }
-
-    public void setChildren(List<TransFieldMeta> children) {
-        this.children = children;
-    }
-
-    public Annotation getTransAnno() {
-        return transAnno;
     }
 
 }

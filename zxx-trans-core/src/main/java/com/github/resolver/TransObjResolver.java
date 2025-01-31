@@ -1,7 +1,11 @@
 package com.github.resolver;
 
+
 /**
- * 翻译包装对象解析器
+ * TransObjResolver: 解析包装对象，获取需要翻译的对象
+ *
+ * @author zhangxiaoxiang
+ * @since 2025/1/31
  */
 public interface TransObjResolver {
 

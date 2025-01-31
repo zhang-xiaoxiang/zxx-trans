@@ -10,10 +10,10 @@
     </parent>
     <groupId>io.github.zhang-xiaoxiang</groupId>
     <artifactId>zxx-trans</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <packaging>pom</packaging>
     <name>zxx-trans</name>
-    <description>zxx-trans</description>
+    <description>zxx-trans:一款自动翻译的插件,参考easy-trans</description>
     <url>https://github.com/zhang-xiaoxiang/zxx-trans</url>
     <licenses>
         <license>
@@ -67,7 +67,7 @@
             <dependency>
                 <groupId>io.github.zhang-xiaoxiang</groupId>
                 <artifactId>zxx-trans</artifactId>
-                <version>1.0.1</version>
+                <version>1.0.2</version>
             </dependency>
             <dependency>
                 <groupId>io.github.zhang-xiaoxiang</groupId>

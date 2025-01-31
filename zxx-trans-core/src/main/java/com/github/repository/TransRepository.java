@@ -5,8 +5,12 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
+
 /**
- * 获取已翻译数据仓库
+ * TransRepository: 获取已翻译数据仓库
+ *
+ * @author zhangxiaoxiang
+ * @since 2025/1/31
  */
 public interface TransRepository {
 

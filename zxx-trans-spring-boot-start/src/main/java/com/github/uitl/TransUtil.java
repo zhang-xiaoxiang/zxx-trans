@@ -5,7 +5,12 @@ import com.github.service.TransService;
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
-
+/**
+ * TransUtil: 翻译工具类
+ *
+ * @author zhangxiaoxiang
+ * @since 2025/1/31
+ */
 public class TransUtil implements ApplicationContextAware {
 
     private static ApplicationContext applicationContext;
@@ -20,6 +25,12 @@ public class TransUtil implements ApplicationContextAware {
         return TransServiceHolder.get().trans(obj);
     }
 
+    /**
+     * 设置Spring应用程序上下文
+     *
+     * @param applicationContext Spring应用程序上下文
+     * @throws BeansException 如果在设置上下文过程中发生错误，则抛出BeansException异常
+     */
     @Override
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
         TransUtil.applicationContext = applicationContext;

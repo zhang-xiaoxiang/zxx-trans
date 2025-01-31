@@ -8,8 +8,12 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
+
 /**
- * 翻译注解
+ * Trans:翻译注解
+ *
+ * @author zhangxiaoxiang
+ * @since 2025/1/31
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ElementType.FIELD, ElementType.ANNOTATION_TYPE})

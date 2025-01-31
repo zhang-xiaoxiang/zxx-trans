@@ -3,11 +3,17 @@ package com.github.repository;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
+/**
+ * TransRepositoryFactory: 翻译仓库工厂类
+ *
+ * @author zhangxiaoxiang
+ * @since 2025/1/31
+ */
 public class TransRepositoryFactory {
 
 
     /**
-     * key type  val是对应type的service
+     * 获取翻译仓库的缓存容器  key: 翻译仓库的class  value: 翻译仓库实例
      */
     private final static Map<Class<? extends TransRepository>, TransRepository> TRANS_REPOSITORY_MAP = new ConcurrentHashMap<>();
 
