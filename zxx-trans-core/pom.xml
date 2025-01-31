@@ -26,8 +26,6 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.20</version>
-            <scope>test</scope>
-            <optional>true</optional>
         </dependency>
     </dependencies>
 
